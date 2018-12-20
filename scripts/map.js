@@ -137,7 +137,6 @@ $(window).on('load', function() {
           ('<b>'+'Sourcing 2015: ' +'</b>' + point['Sourcing_15'] + ' €' + '<br>') +
           ('<b>'+'Products 2016: ' +'</b>' + point['Products_16'] + ' €' + '<br>') + 
           ('<b>'+'Projects 2016: ' +'</b>' + point['Projects_16'] + ' €' + '<br>') +
-          ('<b>'+'Sourcing 2016: ' +'</b>' + point['Sourcing_16'] + ' €' + '<br>') +
           ('<b>'+'Products 2017: ' +'</b>' + point['Products_17'] + ' €' + '<br>') +
           ('<b>'+'Projects 2017: ' +'</b>' + point['Projects_17'] + ' €' + '<br>') +
           ('<b>'+'Sourcing 2017: ' +'</b>' + point['Sourcing_17'] + ' €' + '<br>') +
