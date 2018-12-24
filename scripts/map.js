@@ -105,18 +105,18 @@ $(window).on('load', function() {
 
       // If icon contains '.', assume it's a path to a custom icon,
       // otherwise create a Font Awesome icon
-      var iconSize = point['15x15'];
-      var size = (iconSize.indexOf('x') > 0)
-      ? [parseInt(iconSize.split('x')[0]), parseInt(iconSize.split('x')[1])]
-      : [32, 32];
+      var iconSize = point[15, 15];
+      // var size = (iconSize.indexOf('x') > 0)
+      // ? [parseInt(iconSize.split('x')[0]), parseInt(iconSize.split('x')[1])]
+      // : [32, 32];
 
-      var anchor = [size[0] / 2, size[1]];
+      // var anchor = [size[0] / 2, size[1]];
 
       var icon = (point['Marker Icon'].indexOf('.') > 0)
         ? L.icon({
           iconUrl: point['Marker Icon'],
-          iconSize: size,
-          iconAnchor: anchor
+        // iconSize: iconSize,
+        //  iconAnchor: anchor
         })
         : createMarkerIcon(point['Marker Icon'],
           'fa',
