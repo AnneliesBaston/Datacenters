@@ -115,7 +115,7 @@ $(window).on('load', function() {
       var icon = (point['Marker Icon'].indexOf('.') > 0)
         ? L.icon({
           iconUrl: point['Marker Icon'],
-        // iconSize: iconSize,
+          iconSize: iconSize,
         //  iconAnchor: anchor
         })
         : createMarkerIcon(point['Marker Icon'],
