@@ -144,7 +144,7 @@ $(window).on('load', function() {
           ('<tr><td>Products 2018: </td>'+ '<td>' + point['Products_18'] + ' €</th></tr><br>') + 
           ('<tr><td>Projects 2018: </td>'+ '<td>' + point['Projects_18'] + ' €</th></tr><br>') +
           ('<tr><td>Sourcing 2018: </td>'+ '<td>' + point['Sourcing_18'] + ' €</th></tr><br>') +
-           </table>));
+           '</table>'));
 
         if (layers !== undefined && layers.length !== 1) {
           marker.addTo(layers[point.Group]);
