@@ -702,6 +702,15 @@ $(window).on('load', function() {
     map.on('zoomend', function() {
       togglePolygonLabels();
     });
+	  
+    map.on('click', function() {
+    if (map.scrollWheelZoom.enabled()) {
+    map.scrollWheelZoom.disable();
+    }
+    else {
+    map.scrollWheelZoom.enable();
+    }
+  });
 
     addTitle();
 
